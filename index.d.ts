@@ -22,7 +22,7 @@ export interface MultiSelectProps {
     searchIcon?: React.ReactNode;
     searchInputPlaceholderText?: string;
     searchInputStyle?: StyleProp<TextStyle>;
-    selectText?: string;
+    selectText?: string | function;
     styleDropdownMenu?: StyleProp<ViewStyle>;
     styleDropdownMenuSubsection?: StyleProp<ViewStyle>;
     styleInputGroup?: StyleProp<ViewStyle>;
